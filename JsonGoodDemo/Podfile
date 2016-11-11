@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios ,'7.0'
+
+target "JsonGoodDemo" do
+
+    pod 'AFNetworking', '~> 2.0'
+    pod 'MBProgressHUD', '~> 0.9.1'
+    
+end
+
+target "JsonGoodDemoTests" do
+
+pod 'AFNetworking', '~> 2.0'
+pod 'JsonGood' , :path=>'../JsonGood'
+
+end
