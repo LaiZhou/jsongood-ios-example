@@ -12,6 +12,7 @@ end
 target "JsonGoodDemoTests" do
 
 pod 'AFNetworking', '~> 2.0'
-pod 'JsonGood' , :path=>'../JsonGood'
+pod 'JsonGood', :git => 'https://github.com/jessyZu/JsonGoodIOS.git', :branch=>'master'
+
 
 end
